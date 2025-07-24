@@ -25,8 +25,8 @@ bpm = st.slider("BPM", 40, 200, 70)
 hz  = st.number_input("동조 주파수 (Hz)", 0.0, 50.0, 7.0)
 
 # 3) 필터링
-mask = (meta["bpm"] <= bpm + 5) & (meta["bpm"] >= bpm - 5) & \
-       (meta["hz_low"] <= hz) & (meta["hz_high"] >= hz)
+mask = (meta["bpm"] >= bpm - 15) & (meta["bpm"] <= bpm + 15) & \
+       (meta["hz_low"] - 2 <= hz) & (meta["hz_high"] + 2 >= hz)
 candidates = meta[mask]
 
 if candidates.empty:
