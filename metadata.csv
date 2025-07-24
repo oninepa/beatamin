@@ -1,0 +1,4 @@
+public_id,bpm,key_code,key_name,energy,hz_low,hz_high,tags
+newagemusic001,81,7,D minor,0.50,8,9,"newage,alpha"
+sleepmusic001,123,7,D minor,0.30,2,4,"sleep,delta"
+ambientpiano001,65,2,E♭ minor,0.40,6,8,"ambient,theta"
