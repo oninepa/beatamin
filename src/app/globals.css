@@ -24,3 +24,46 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px; /* Increased from default 16px */
+  }
+  
+  body {
+    font-size: 1.125rem; /* 18px base */
+    line-height: 1.6;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Increased significantly */
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p, div, span {
+    font-size: 1.25rem; /* 20px */
+  }
+  
+  button {
+    font-size: 1.375rem; /* 22px */
+  }
+  
+  input, select, textarea {
+    font-size: 1.25rem; /* 20px */
+  }
+  
+  label {
+    font-size: 1.25rem; /* 20px */
+  }
+}

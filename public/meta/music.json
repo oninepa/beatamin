@@ -1,0 +1,20 @@
+[
+  {
+    "public_id": "newagemusic001",
+    "bpm": 81,
+    "hz": 8.5,
+    "energy": 0.5
+  },
+  {
+    "public_id": "sleepmusic001",
+    "bpm": 123,
+    "hz": 3,
+    "energy": 0.3
+  },
+  {
+    "public_id": "ambientpiano001",
+    "bpm": 65,
+    "hz": 7,
+    "energy": 0.4
+  }
+]
